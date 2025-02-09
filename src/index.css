@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+    width: 6px; /* Товщина */
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #191919; /* Фон скролбара */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--scroll-color); /* Колір скролбара */
+    border-radius: 10px; /* Закруглення */
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-color-hover); /* Колір при наведенні */
+  }
