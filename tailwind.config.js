@@ -4,6 +4,10 @@ export default {
   theme: {
     extend: {
       keyframes:{
+        blink: {
+          "0%, 100%": { opacity: 1 },
+          "50%": { opacity: 0 },
+        },
         slideDown:{
           '0%': { transform: 'translateY(-100%)' },
           '20%': { transform: 'translateY(-80%)' },
@@ -30,6 +34,7 @@ export default {
         }
       },
       animation:{
+        blink: "blink 1s steps(2, start) infinite",
         slideDown:'slideDown 0.5s linear',
         slideUp:'slideUp 0.5s linear',
         "slide-left-to-right": "slide-left-to-right 1.5s linear forwards",
