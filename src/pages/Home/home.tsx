@@ -14,7 +14,7 @@ function Home () {
         </div>
         <div className="w-max mr-auto ml-auto font-medium text-[30px]">
             <span>I`m a </span>
-            <span className=" duration-500" style={{ color }}>Developer.</span>
+            <span className=" duration-500" style={{ color }}>Frontend Developer.</span>
         </div>
         <Theme></Theme>
     </main>

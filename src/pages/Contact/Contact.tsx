@@ -15,8 +15,8 @@ function Contact() {
     }, [color]);
     return(
         <main className="relative " style={{scrollbarWidth:"thin",scrollbarColor:color}}>
-            <h1 className="text-[32px] text-center font-[600]">CONTACT <span  style={{color}}>ME</span></h1>
-            <h3 className="text-center text-[20px]">Get in <span  style={{color}}>tuch</span></h3>
+            <h1 className="text-[32px] text-center font-[600]">CONTACT <span  className="duration-500"  style={{color}}>ME</span></h1>
+            <h3 className="text-center text-[20px]">Get in <span className="duration-500"  style={{color}}>tuch</span></h3>
             <section className="border-4 bg-[#191919] w-[300px] rounded-xl p-2 duration-500 mt-8 mr-auto ml-auto mb-8" style={{borderColor:color}}>
                 <h5 className=" font-medium text-[20px] opacity-80 text-center mb-12">Contact Info</h5>
                 <div className=" flex items-center ml-6 mb-8">
